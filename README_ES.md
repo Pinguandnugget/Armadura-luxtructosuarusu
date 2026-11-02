@@ -43,3 +43,13 @@ Con JDK 21 y Gradle 8.10.x, desde esta carpeta ejecutar `gradle build`. Los comp
 `/give @s luxtructosaurus:botas_luxtructosaurus`
 
 **Nota sobre el equilibrio:** 24 puntos de defensa superan los 20 puntos de la netherita, aunque la Luxtructosaurus tiene menor tenacidad y resistencia al retroceso. Minecraft suele limitar el cálculo efectivo de armadura a 20 puntos. No es posible garantizar que sea globalmente "inferior a netherita" contra todo tipo de daño con estas cifras.
+
+## Compilar en GitHub Actions
+1. Crea un repositorio nuevo en GitHub.
+2. Sube **el contenido** de esta carpeta (incluida .github/workflows/build.yml) a la raiz, no el archivo ZIP cerrado.
+3. Abre Actions > Compilar Luxtructosaurus 1.21.1 > Run workflow.
+4. Si aparece verde, entra a esa ejecucion y baja el Artifact Luxtructosaurus-Fabric-1.21.1.
+5. Extrae su ZIP y usa el JAR de produccion (no el -sources.jar).
+6. Si falla, abre el paso Compilar con registros detallados y copia las lineas del primer `error:` o `FAILURE: Build failed`.
+
+**Nota:** esta version agrega automatizacion de compilacion; NO afirma que el codigo haya compilado. El proyecto sigue pendiente de prueba con Fabric y Arclight.

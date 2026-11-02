@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "luxtructosaurus:luxtructosaurus"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "luxtructosaurus:luxtructosaurus"
+      }
+    ]
+  }
+}

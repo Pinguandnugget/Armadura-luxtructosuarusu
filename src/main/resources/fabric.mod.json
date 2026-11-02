@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "luxtructosaurus",
+  "version": "${version}",
+  "name": "Armadura Luxtructosaurus",
+  "description": "Armadura volcánica mejorada desde diamante; inmunidad al fuego con set completo.",
+  "authors": [
+    "PotitoStudio"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.potitostudio.lux.LuxMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

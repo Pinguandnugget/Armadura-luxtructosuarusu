@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "luxtructosaurus:plantilla_luxtructosaurus",
+  "base": "minecraft:diamond_chestplate",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "luxtructosaurus:peto_luxtructosaurus",
+    "count": 1
+  }
+}
